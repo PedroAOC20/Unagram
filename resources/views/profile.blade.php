@@ -11,15 +11,15 @@
             <div class="px-6">
             <div class="flex flex-wrap justify-center">
                 <div class="w-full px-4 flex justify-center">
-                    <img alt="..." src="https://avatars.githubusercontent.com/u/48739190?v=4" class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px">
+                    <img alt="..." src="https://avatars.githubusercontent.com/u/161269373?v=4" class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px">
                 </div>
                 <div class="w-full px-4 text-center mt-20">
                     <div class="text-center mt-12">
                     <h3 class="text-xl font-semibold leading-normaltext-blueGray-700">
-                    Igor Ulian
+                    Pedro Cardoso
                     </h3>
                     <div class="text-sm leading-normal mt-0 mb-2 text-blueGray-400">
-                    @igorulian
+                    @pedroaoc20
                     </div>
                     <div class="mb-2 text-sm text-blueGray-600">
                         <i class="fas fa-university mr-2 text-sm text-blueGray-400"></i>
