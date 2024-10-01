@@ -6,18 +6,14 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Post extends Component
+class header extends Component
 {
-    public $post;
-
     /**
      * Create a new component instance.
-     *
-     * @param array $post
      */
-    public function __construct(array $post)
+    public function __construct()
     {
-        $this->post = $post;
+        //
     }
 
     /**
@@ -25,6 +21,6 @@ class Post extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.post', ['post' => $this->post]);
+        return view('components.header');
     }
 }

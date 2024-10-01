@@ -12,7 +12,7 @@
 	}
 </style>
 
-<div class="mx-auto flex justify-center max-w-3xl md:mb-8 mt-4 bg-white rounded-lg items-center relative md:p-0 p-8"
+<div class="mx-auto flex justify-center max-w-3xl md:mb-8 mt-4 rounded-lg items-center relative md:p-0 p-8"
 	x-data="{
         comment : false,
     }">
@@ -22,15 +22,15 @@
 			<div class="flex justify-between items-center py-2">
 				<div class="relative mt-1 flex">
 					<div class="mr-2">
-						<img src="https://avatars.githubusercontent.com/u/48739190?v=4" alt="saman sayyar"
+						<img src="{{$post['user']['picture']}}" alt="saman sayyar"
                                 class="w-10 h-10 rounded-full object-cover">
                         </div>
 						<div class="ml-3 flex justify-start flex-col items-start">
-							<p class="text-gray-900 text-sm">
-								Igor
-							</p>
+							<a href="/profile" class="text-gray-900 text-sm">
+                                {{$post['user']['name']}}
+							</a>
 							<p class="text-gray-600 text-xs">
-								igorulian
+                                {{$post['user']['username']}}
 							</p>
 						</div>
 						<!-- <span class="text-xs mx-2">•</span>
@@ -47,9 +47,10 @@
                     </button>
 				</div>
 			</div>
-			<div class="relative w-full h-full">
-				<img src="https://wallpaperaccess.com/full/345330.jpg" alt="saman" class="rounded-lg w-full h-full object-cover">
-            </div>
+                <div class="relative w-full h-full" style="aspect-ratio: 1.60">
+                    <img src="{{$post['imageUrl']}}" alt="saman" class="absolute rounded-lg w-full h-full object-cover">
+                    <img src="{{ asset('images/loading.png')}}" alt="saman" class="rounded-lg w-full h-full object-cover">
+                </div>
 				<div class="">
 
 					<!-- Comment -->
