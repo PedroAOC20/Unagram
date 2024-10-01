@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
 
-<section class="pt-16 bg-blueGray-50 min-h-screen h-full">
+<section class="pt-16  min-h-screen h-full">
     <div class="w-full lg:w-4/12 px-4 mx-auto">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16">
             <a href="/feed" class="absolute top-0 left-0 m-4">
@@ -11,9 +11,7 @@
             <div class="px-6">
             <div class="flex flex-wrap justify-center">
                 <div class="w-full px-4 flex justify-center">
-                <div class="relative">
                     <img alt="..." src="https://avatars.githubusercontent.com/u/48739190?v=4" class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px">
-                </div>
                 </div>
                 <div class="w-full px-4 text-center mt-20">
                     <div class="text-center mt-12">
@@ -45,7 +43,7 @@
                         <span class="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
                             89
                         </span>
-                        <span class="text-sm text-blueGray-400">Comentários</span>
+                        <span class="text-sm text-blueGray-400">Coment.</span>
                     </div>
                 </div>
                 </div>
