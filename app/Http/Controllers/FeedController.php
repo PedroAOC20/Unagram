@@ -30,7 +30,7 @@ class FeedController extends Controller
             [
                 'user' => [
                     'username' => 'pedroaoc',
-                    'name' => 'Pedro AOC',
+                    'name' => 'Pedro Cardoso',
                     'picture' => 'https://avatars.githubusercontent.com/u/161269373?v=4',
                 ],
                 'imageUrl' => 'https://picsum.photos/652/407',

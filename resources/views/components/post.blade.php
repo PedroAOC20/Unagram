@@ -74,7 +74,7 @@
 								class="flex justify-start flex-col space-y-3 items-start px-2 border-b border-gray-100">
 								<div class="relative mt-1 mb-3 pt-2 flex">
 									<div class="mr-2">
-										<img src="https://avatars.githubusercontent.com/u/48739190?v=4" alt="saman sayyar"
+										<img src="{{$post['user']['picture']}}" alt="saman sayyar"
                                         class="w-8 h-8 rounded-full object-cover">
                                 </div>
 										<div class="ml-2 w-full" x-data="{ replies : false }">
@@ -101,7 +101,7 @@
 												class="flex justify-start flex-col space-y-3 items-start px-2 border-b border-gray-100">
 												<div class="relative mt-1 mb-3 pt-2 flex">
 													<div class="mr-2">
-														<img src="https://avatars.githubusercontent.com/u/48739190?v=4" alt="saman sayyar"
+														<img src="{{$post['user']['picture']}}" alt="saman sayyar"
                                                                     class="w-8 h-8 rounded-full object-cover">
                                                             </div>
 														<div class="ml-2 w-full" x-data="{ replies : true }">
@@ -130,7 +130,7 @@
 										class="flex justify-start flex-col space-y-3 items-start px-2 border-b border-gray-100">
 										<div class="relative mt-1 mb-3 pt-2 flex">
 											<div class="mr-2">
-												<img src="https://avatars.githubusercontent.com/u/48739190?v=4" alt="saman sayyar"
+												<img src="{{$post['user']['picture']}}" alt="saman sayyar"
                                         class="w-8 h-8 rounded-full object-cover">
                                 </div>
 												<div class="ml-2 w-full">
