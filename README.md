@@ -5,11 +5,11 @@
 ## Imagens do Unagram
 
 <p align="center">
- <img src="https://github.com/PedroAOC20/Unagram/blob/main/.github/images/01.jpeg?raw=true" alt="register" border="0" width="48%" heigth="18%">
- <img src="https://github.com/PedroAOC20/Unagram/blob/main/.github/images/03.jpeg?raw=true" alt="register" border="0" width="48%" heigth="18%">
+ <img src="https://github.com/PedroAOC20/Unagram/blob/main/.github/images/01.png?raw=true" alt="register" border="0" width="48%" heigth="18%">
+ <img src="https://github.com/PedroAOC20/Unagram/blob/main/.github/images/02.png?raw=true" alt="register" border="0" width="48%" heigth="18%">
  
- <img src="https://github.com/PedroAOC20/Unagram/blob/main/.github/images/02.jpeg?raw=true" alt="register" border="0" width="48%" heigth="18%">
- <img src="https://github.com/PedroAOC20/Unagram/blob/main/.github/images/04.jpeg?raw=true" alt="register" border="0" width="48%" heigth="18%">
+ <img src="https://github.com/PedroAOC20/Unagram/blob/main/.github/images/03.png?raw=true" alt="register" border="0" width="48%" heigth="18%">
+ <img src="https://github.com/PedroAOC20/Unagram/blob/main/.github/images/04.png?raw=true" alt="register" border="0" width="48%" heigth="18%">
 </p>
 
 
