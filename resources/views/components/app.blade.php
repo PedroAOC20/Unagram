@@ -7,7 +7,7 @@
         <title>Unagram</title>
         @vite('resources/css/app.css')
     </head>
-    <body class="font-sans antialiased bg-white">
+    <body class="font-sans antialiased bg-white" style="min-height: 100vh;">
         <x-header/>
         {{ $slot }}
     </body>

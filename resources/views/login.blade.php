@@ -2,7 +2,6 @@
 <x-app>
     <section class="bg-white">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-            <!-- <img class="w-60  mr-2" src="{{asset('images/02-onSlogan-txtBranco-horizontal.png')}}" alt="logo"> -->
         <div class="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0">
             <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                 <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
