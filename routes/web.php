@@ -12,10 +12,10 @@ Route::get('/profile', function () {
     return view('profile');
 });
 
-Route::get('/post', [FeedController::class, 'show']);
+Route::get('/post', [PostController::class, 'show']);
 Route::post('/posts', [PostController::class, 'store'])->name('posts.store');
 
 
-Route::get('/feed', [FeedController::class, 'index']);
+Route::get('/feed', [FeedController::class, 'index'])->name('feed');
 
 

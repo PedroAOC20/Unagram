@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
@@ -20,14 +20,14 @@ class PostController extends Controller
             'description' => 'required|string|max:255',
         ]);
 
-        // Salvar a imagem no armazenamento público
         if ($request->hasFile('image')) {
             $path = $request->file('image')->store('posts', 'public');
         }
 
         // Criar e salvar o post no banco de dados
         $post = new Post();
-        $post->image = $path ?? null;
+        $post->user_id = 1;
+        $post->image_url = $path ?? null;
         $post->description = $request->description;
         $post->save();
 
