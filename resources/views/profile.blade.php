@@ -11,15 +11,15 @@
             <div class="px-6">
             <div class="flex flex-wrap justify-center">
                 <div class="w-full px-4 flex justify-center">
-                    <img alt="..." src="https://avatars.githubusercontent.com/u/161269373?v=4" class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px">
+                    <img alt="..." src="{{$profile->profile_picture}}" class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px">
                 </div>
                 <div class="w-full px-4 text-center mt-20">
                     <div class="text-center mt-12">
                     <h3 class="text-xl font-semibold leading-normaltext-blueGray-700">
-                    Pedro Cardoso
+                    {{$profile->name}}
                     </h3>
                     <div class="text-sm leading-normal mt-0 mb-2 text-blueGray-400">
-                    @pedroaoc20
+                    {{$profile->username}}
                     </div>
                     <div class="mb-2 text-sm text-blueGray-600">
                         <i class="fas fa-university mr-2 text-sm text-blueGray-400"></i>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="flex justify-center py-4 lg:pt-4 pt-8 gap-4">
                     <div class="p-3 text-center w-20">
-                        <span class="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
+                        <!-- <span class="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
                             22
                         </span>
                         <span class="text-sm text-blueGray-400">Amigos</span>
@@ -44,11 +44,11 @@
                             89
                         </span>
                         <span class="text-sm text-blueGray-400">Coment.</span>
-                    </div>
+                    </div> -->
                 </div>
                 </div>
             </div>
-            <div class="mt-10 py-10 border-t border-blueGray-200 text-center">
+            <!-- <div class="mt-10 py-10 border-t border-blueGray-200 text-center">
                 <div class="grid grid-cols-2 gap-1" style="justify-items: center; gap: 16px;">
                     <img alt="post" src="https://picsum.photos/200/200" alt="Imagem" class="hover:scale-150 rounded-lg object-cover">
                     <img alt="post" src="https://picsum.photos/200/200" alt="Imagem" class="hover:scale-150 rounded-lg object-cover">
@@ -58,7 +58,7 @@
                     <img alt="post" src="https://picsum.photos/200/200" alt="Imagem" class="hover:scale-150 rounded-lg object-cover">
                     <img alt="post" src="https://picsum.photos/200/200" alt="Imagem" class="hover:scale-150 rounded-lg object-cover">
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

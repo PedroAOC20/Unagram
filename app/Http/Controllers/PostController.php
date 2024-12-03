@@ -12,6 +12,13 @@ class PostController extends Controller
         return view('post');
     }
 
+    public function detail($id)
+    {
+        $post = Post::where('id', $id)->first();
+        $data['post'] = $post;
+        return view('post-detail', $data);
+    }
+
     public function store(Request $request)
     {
         // Validação dos campos

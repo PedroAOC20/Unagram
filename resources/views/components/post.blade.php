@@ -26,7 +26,7 @@
                                 class="w-10 h-10 rounded-full object-cover">
                         </div>
 						<div class="ml-3 flex justify-start flex-col items-start">
-							<a href="/profile" class="text-gray-900 text-sm">
+							<a href="/profile/{{$post->user->id}}" class="text-gray-900 text-sm">
                                 {{$post->user->name}}
 							</a>
 							<p class="text-gray-600 text-xs">
