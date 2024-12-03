@@ -22,19 +22,17 @@
 			<div class="flex justify-between items-center py-2">
 				<div class="relative mt-1 flex">
 					<div class="mr-2">
-						<img src="{{$post['user']['picture']}}" alt="saman sayyar"
+						<img src="{{$post->user->profile_picture}}" alt="saman sayyar"
                                 class="w-10 h-10 rounded-full object-cover">
                         </div>
 						<div class="ml-3 flex justify-start flex-col items-start">
 							<a href="/profile" class="text-gray-900 text-sm">
-                                {{$post['user']['name']}}
+                                {{$post->user->name}}
 							</a>
 							<p class="text-gray-600 text-xs">
-                                {{$post['user']['username']}}
+                                {{$post->user->username}}
 							</p>
 						</div>
-						<!-- <span class="text-xs mx-2">•</span>
-                       <button class="text-indigo-500 text-sm capitalize flex justify-start items-start">follow</button> -->
 					</div>
 					<button type="button"
                         class="relative p-2 focus:outline-none border-none bg-gray-100 rounded-full">
@@ -48,7 +46,7 @@
 				</div>
 			</div>
                 <div class="relative w-full h-full" style="aspect-ratio: 1.60">
-                    <img src="{{$post['imageUrl']}}" alt="saman" class="absolute rounded-lg w-full h-full object-cover">
+                    <img src="{{ $post->image_base64 }}" alt="saman" class="absolute rounded-lg w-full h-full object-cover">
                     <img src="{{ asset('images/loading.png')}}" alt="saman" class="rounded-lg w-full h-full object-cover">
                 </div>
 				<div class="">
@@ -74,7 +72,7 @@
 								class="flex justify-start flex-col space-y-3 items-start px-2 border-b border-gray-100">
 								<div class="relative mt-1 mb-3 pt-2 flex">
 									<div class="mr-2">
-										<img src="{{$post['user']['picture']}}" alt="saman sayyar"
+										<img src="{{$post->user->picture}}" alt="saman sayyar"
                                         class="w-8 h-8 rounded-full object-cover">
                                 </div>
 										<div class="ml-2 w-full" x-data="{ replies : false }">
@@ -101,7 +99,7 @@
 												class="flex justify-start flex-col space-y-3 items-start px-2 border-b border-gray-100">
 												<div class="relative mt-1 mb-3 pt-2 flex">
 													<div class="mr-2">
-														<img src="{{$post['user']['picture']}}" alt="saman sayyar"
+														<img src="{{$post->user->picture}}" alt="saman sayyar"
                                                                     class="w-8 h-8 rounded-full object-cover">
                                                             </div>
 														<div class="ml-2 w-full" x-data="{ replies : true }">
@@ -130,7 +128,7 @@
 										class="flex justify-start flex-col space-y-3 items-start px-2 border-b border-gray-100">
 										<div class="relative mt-1 mb-3 pt-2 flex">
 											<div class="mr-2">
-												<img src="{{$post['user']['picture']}}" alt="saman sayyar"
+												<img src="{{$post->user->picture}}" alt="saman sayyar"
                                         class="w-8 h-8 rounded-full object-cover">
                                 </div>
 												<div class="ml-2 w-full">
@@ -162,10 +160,7 @@
 								</div>
 								<div class="p-2 flex flex-col space-y-3">
 									<div class="w-full">
-										<p class="font-bold text-sm text-gray-700">234 likes</p>
-									</div>
-									<div class="w-full">
-										<p class="font-normal text-xs text-gray-500">10 horas atrás</p>
+										<p class="font-bold text-sm text-gray-700">{{$post->likes}} likes</p>
 									</div>
 								</div>
 								<!-- End System Like and tools Feed -->

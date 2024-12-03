@@ -13,7 +13,7 @@ return new class extends Migration {
             $table->unsignedBigInteger('user_id');
             $table->text('description');
             $table->integer('likes')->default(0);
-            $table->string('image_url');
+            $table->longText('image_base64')->nullable();
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

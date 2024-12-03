@@ -2,6 +2,7 @@
 
 namespace App\View\Components;
 
+use App\Models\Post as ModelsPost;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -15,7 +16,7 @@ class Post extends Component
      *
      * @param array $post
      */
-    public function __construct(array $post)
+    public function __construct(ModelsPost $post)
     {
         $this->post = $post;
     }
