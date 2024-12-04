@@ -45,4 +45,14 @@ class PostController extends Controller
     
         return redirect()->route('feed')->with('success', 'Post criado com sucesso!');
     }
+
+
+    public function like($id) {
+        $post = Post::findOrFail($id);
+
+        $post->likes = $post->likes + 1;
+
+        $post->save();
+        return redirect()->route('feed')->with('success', 'Post curtido com sucesso!');;
+    }
 }

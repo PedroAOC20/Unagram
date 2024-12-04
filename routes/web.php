@@ -17,8 +17,12 @@ Route::get('/login', function () {
 Route::get('/profile/{id}', [ProfileController::class, 'show']);
 
 Route::get('/post', [PostController::class, 'show']);
+Route::get('/post/{id}/like', [PostController::class, 'like'])->name('post.like');
 Route::get('/post/{id}', [PostController::class, 'detail']);
 Route::post('/posts', [PostController::class, 'store'])->name('posts.store');
+
+
+
 
 
 Route::get('/feed', [FeedController::class, 'index'])->name('feed');
