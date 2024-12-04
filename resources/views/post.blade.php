@@ -53,6 +53,7 @@ button {
 textarea {
     border: 1px solid #aaa;
     border-radius: 8px;
+    padding: 8px;
 }
 
 .picture {

@@ -12,6 +12,12 @@
 </x-app>
 
 <style> 
+     footer a {
+      background-color: #26a9f5;
+      padding: 8px 16px;
+      color: #FFF;
+      border-radius: 8px;
+     }
     html, body {
       height: 100%;
     }
