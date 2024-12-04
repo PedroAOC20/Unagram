@@ -6,7 +6,7 @@
             @endforeach
         </section>
     </div>
-    <footer class="footer bg-dark text-dark text-center p-4">
+    <footer class="footer">
         <a href="post">Adicionar Post</a>
     </footer>
 </x-app>
@@ -24,5 +24,13 @@
     }
     .footer {
       flex-shrink: 0;
+      position: sticky;
+      bottom: 0;
+      height: 56px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FFF;
     }
 </style>
